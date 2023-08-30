@@ -5,6 +5,7 @@
   --color-headings: #402e32;
   --color-body: #b6a999;
   --color-body-darker: #8f8476;
+  --color-block: #d8c3be;
 }
 
 * *::after,
@@ -28,6 +29,7 @@ h2,
 h3 {
   color: var(--color-headings);
   margin-bottom: 2rem;
+  line-height: 1.1;
 }
 
 h1 {
@@ -394,7 +396,7 @@ p {
 }
 
 .block--dark {
-  background: var(--color-headings);
+  background: var(--color-block);
   color: #7b858b;
 }
 
@@ -478,5 +480,34 @@ p {
 
   .nav__item {
     border: 0;
+  }
+}
+
+/*Hero*/
+
+.hero {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0 90%);
+}
+
+.hero__tagline {
+  font-size: 2rem;
+  color: var(--color-headings);
+  letter-spacing: 1px;
+  margin: 2rem 0 5rem;
+}
+
+.hero__image {
+  width: 100%;
+  object-position: right top;
+  padding-top: 5rem;
+}
+
+.hero .container {
+  padding-bottom: 8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 0;
   }
 }
