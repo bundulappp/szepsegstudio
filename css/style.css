@@ -329,10 +329,16 @@ p {
 
 .testimonial__image {
   position: relative;
+  height: 30rem;
 }
 
-.testimonial__image > img {
+.testimonial__image .img {
   width: 100%;
+  background-image: url('../images/pexels-nataliya-vaitkevich-5128220.jpg');
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .testimonial__image > .icon-container {
