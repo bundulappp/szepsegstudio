@@ -6,6 +6,8 @@
   --color-body: #b6a999;
   --color-body-darker: #8f8476;
   --color-block: #d8c3be;
+
+  scroll-behavior: smooth;
 }
 
 * *::after,
