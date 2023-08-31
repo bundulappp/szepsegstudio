@@ -243,6 +243,7 @@ p {
 
 .media {
   display: flex;
+  margin-top: 4rem;
 }
 
 .media__title {
@@ -395,6 +396,7 @@ p {
 
 .block__header {
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .block__heading {
