@@ -505,6 +505,10 @@ p {
   clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0 90%);
 }
 
+.hero__header {
+  font-size: 6rem;
+}
+
 .hero__tagline {
   font-size: 2rem;
   color: var(--color-headings);
@@ -545,6 +549,13 @@ p {
 
 .card__wrapper {
   display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .card__wrapper {
+    flex-direction: column;
+    /* justify-content: center; */
+  }
 }
 
 .card__wrapper span {
