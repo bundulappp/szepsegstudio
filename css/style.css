@@ -337,16 +337,12 @@ p {
 
 .testimonial__image {
   position: relative;
-  height: 30rem;
+  width: 100%;
 }
 
-.testimonial__image .img {
-  width: 100%;
-  background-image: url('../images/pexels-nataliya-vaitkevich@2x.jpg');
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.testimonial__image img {
+  height: 30rem;
+  object-fit: cover;
 }
 
 .testimonial__image > .icon-container {
