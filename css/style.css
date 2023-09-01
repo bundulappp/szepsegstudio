@@ -300,9 +300,12 @@ p {
   margin: 0 2rem;
 }
 
+.media__image__wrapper {
+  margin: 2rem;
+}
+
 .media__image {
-  margin: 2rem 0;
-  width: 95%;
+  width: 100%;
   max-height: 40rem;
   object-fit: cover;
   border-radius: 20px;
@@ -375,7 +378,7 @@ p {
 /*Testimonial*/
 
 .testimonial {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .testimonial__image {
@@ -383,10 +386,10 @@ p {
   width: 100%;
 }
 
-.testimonial__image img {
+/* .testimonial__image img {
   height: 30rem;
   object-fit: cover;
-}
+} */
 
 .testimonial__image > .icon-container {
   position: absolute;
