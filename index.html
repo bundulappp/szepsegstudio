@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav class="nav collapsible">
         <a href="/" class="nav__brand"
           ><img
@@ -42,6 +42,11 @@
         </ul>
       </nav>
     </header>
+    <a href="#header">
+      <span class="icon-container top-link hide" id="js-top">
+        <img class="icon icon--primary" src="images/chevron-up.svg" />
+      </span>
+    </a>
     <section class="block block--dark hero">
       <div class="container grid grid--1x2">
         <header class="block__header">
@@ -61,20 +66,26 @@
     </section>
     <section class="block container">
       <header class="block__header">
-        <h2 class="block__heading">Heading</h2>
+        <h2 class="block__heading">
+          Professzionális szépészeti szolgáltatások
+        </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
-          maxime.
+          Több mint 25 éves tapasztalattal büszkén állunk ügyfeleink
+          rendelkezésére, hogy szépségüket és önbizalmukat fokozzuk.
         </p>
       </header>
     </section>
     <section class="block block--dark block--skewed-right" id="services">
       <div class="container">
         <header class="block__header">
-          <h2 class="block__heading">Heading</h2>
+          <h2 class="block__heading">Miért minket választanak vendégeink?</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
-            maxime.
+            Több évtizedes tapasztalattal és szakértelemmel rendelkezünk, ami
+            számos elégedett vendég visszatérését eredményezi évről évre.
+            Szalonunkat nyugodt szívvel ajánljuk mindazoknak, akik magas
+            színvonalú és figyelmes kiszolgálást várnak, valamint olyan
+            szakembereket keresnek, akikre teljes mértékben rábízhatják
+            szépségüket és jólétüket.
           </p>
         </header>
       </div>
@@ -88,23 +99,20 @@
             </span>
             <h3 class="feature__heading">Szérumos Komplex Arcmasszázs</h3>
           </div>
-          <div>
+          <div class="feature__body">
             <p>Lifting hatású kényeztetés őssejtes készítményekkel</p>
           </div>
           <div>
             <button class="btn btn--outline">Bővebben</button>
           </div>
         </div>
-        <picture>
+        <picture class="feature__image">
           <source
             type="image/webp"
-            srcset="images/pexels-anna-tarazevich.webp 1x" />
-          <source
-            type="image/png"
-            srcset="images/pexels-anna-tarazevich@2.png 1x" />
+            srcset="images/pexels-produtora-midtrac.webp 1x" />
           <img
-            class="hero__image"
-            src="/images/pexels-anna-tarazevich@2x.jpg"
+            class="media__image"
+            src="/images/pexels-produtora-midtrac@2x.jpg"
             alt="A smiling customer"
         /></picture>
       </article>
@@ -116,40 +124,13 @@
             <span class="icon-container">
               <img src="/images/face.png" alt="" />
             </span>
-            <h3 class="feature__heading">Szérumos Komplex Arcmasszázs</h3>
+            <h3 class="feature__heading">Bőrdiagnosztika</h3>
           </div>
-          <div>
-            <p>Lifting hatású kényeztetés őssejtes készítményekkel</p>
-          </div>
-          <div>
-            <button class="btn btn--outline">Bővebben</button>
-          </div>
-        </div>
-        <picture>
-          <source
-            type="image/webp"
-            srcset="images/pexels-anna-tarazevich.webp 1x" />
-          <source
-            type="image/png"
-            srcset="images/pexels-anna-tarazevich@2.png 1x" />
-          <img
-            class="hero__image"
-            src="/images/pexels-anna-tarazevich@2x.jpg"
-            alt="A smiling customer"
-        /></picture>
-      </article>
-    </section>
-    <section class="block container" data-aos="flip-up">
-      <article class="grid grid--1x2 feature card">
-        <div class="feature__content">
-          <div class="card__wrapper">
-            <span class="icon-container">
-              <img src="/images/face.png" alt="" />
-            </span>
-            <h3 class="feature__heading">Szérumos Komplex Arcmasszázs</h3>
-          </div>
-          <div>
-            <p>Lifting hatású kényeztetés őssejtes készítményekkel</p>
+          <div class="feature__body">
+            <p>
+              Bőrtípusod meghatározása után, egyeztetjük a problémákat és azok
+              kezelési módjait.
+            </p>
           </div>
           <div>
             <button class="btn btn--outline">Bővebben</button>
@@ -159,11 +140,8 @@
           <source
             type="image/webp"
             srcset="images/pexels-anna-tarazevich.webp 1x" />
-          <source
-            type="image/png"
-            srcset="images/pexels-anna-tarazevich@2.png 1x" />
           <img
-            class="hero__image"
+            class="media__image"
             src="/images/pexels-anna-tarazevich@2x.jpg"
             alt="A smiling customer"
         /></picture>
