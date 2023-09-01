@@ -392,7 +392,7 @@ p {
 .testimonial__image > .icon-container {
   position: absolute;
   top: 3rem;
-  right: -32px;
+  right: -15px;
 }
 
 @media screen and (min-width: 768px) {
